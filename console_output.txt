@@ -1,0 +1,280 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/nocdib/.m2/repository/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/nocdib/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+[main] WARN com.datastax.driver.core.NettyUtil - Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+[main] INFO com.datastax.driver.core.policies.DCAwareRoundRobinPolicy - Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+[main] INFO com.datastax.driver.core.Cluster - New Cassandra host /127.0.0.1:9042 added
+Connected to the keyspace "demo" on 127.0.0.1
+Starting WRITE stress test with 1000000 queries
+
+Here is the standard output of the command:
+
+AllMemtablesHeapSize - 111591381
+AllMemtablesLiveDataSize - 31272594
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 111593077
+AllMemtablesLiveDataSize - 31272742
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 111594773
+AllMemtablesLiveDataSize - 31272890
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 111596469
+AllMemtablesLiveDataSize - 31273038
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 111598165
+AllMemtablesLiveDataSize - 31273186
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 112798549
+AllMemtablesLiveDataSize - 31636766
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 117728853
+AllMemtablesLiveDataSize - 33133962
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 123384085
+AllMemtablesLiveDataSize - 34845478
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 130265829
+AllMemtablesLiveDataSize - 36935930
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 137237813
+AllMemtablesLiveDataSize - 39051690
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 146336453
+AllMemtablesLiveDataSize - 42011278
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 150845607
+AllMemtablesLiveDataSize - 42674222
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 153850863
+AllMemtablesLiveDataSize - 42674370
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 157545129
+AllMemtablesLiveDataSize - 42674518
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 170238181
+AllMemtablesLiveDataSize - 46490474
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 22928949
+AllMemtablesLiveDataSize - 4401822
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 37893941
+AllMemtablesLiveDataSize - 8990014
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 54104245
+AllMemtablesLiveDataSize - 13848386
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 70929075
+AllMemtablesLiveDataSize - 18982866
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 88922245
+AllMemtablesLiveDataSize - 24673666
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 106199647
+AllMemtablesLiveDataSize - 29658806
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 124911855
+AllMemtablesLiveDataSize - 35327946
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 140855941
+AllMemtablesLiveDataSize - 40137526
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 155544441
+AllMemtablesLiveDataSize - 44595758
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 167935845
+AllMemtablesLiveDataSize - 48347190
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 20787685
+AllMemtablesLiveDataSize - 4139734
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 38480933
+AllMemtablesLiveDataSize - 9146534
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 53271461
+AllMemtablesLiveDataSize - 13586298
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 68632757
+AllMemtablesLiveDataSize - 18243346
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 86538831
+AllMemtablesLiveDataSize - 23933234
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 106961829
+AllMemtablesLiveDataSize - 30291846
+LiveSSTableCount - 8
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 126183141
+AllMemtablesLiveDataSize - 35714290
+LiveSSTableCount - 9
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 146419653
+AllMemtablesLiveDataSize - 41837150
+LiveSSTableCount - 9
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 164472357
+AllMemtablesLiveDataSize - 47303598
+LiveSSTableCount - 9
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 21282725
+AllMemtablesLiveDataSize - 3879322
+LiveSSTableCount - 9
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 39996447
+AllMemtablesLiveDataSize - 9574454
+LiveSSTableCount - 9
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 58710911
+AllMemtablesLiveDataSize - 15360786
+LiveSSTableCount - 9
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 78806037
+AllMemtablesLiveDataSize - 21324502
+LiveSSTableCount - 9
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 96697071
+AllMemtablesLiveDataSize - 26815346
+LiveSSTableCount - 9
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 116217669
+AllMemtablesLiveDataSize - 32673042
+LiveSSTableCount - 9
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 137545333
+AllMemtablesLiveDataSize - 39132886
+LiveSSTableCount - 9
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 155888309
+AllMemtablesLiveDataSize - 44785154
+LiveSSTableCount - 9
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 11845054
+AllMemtablesLiveDataSize - 1019660
+LiveSSTableCount - 10
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 29301422
+AllMemtablesLiveDataSize - 6321492
+LiveSSTableCount - 10
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 48539278
+AllMemtablesLiveDataSize - 12456892
+LiveSSTableCount - 10
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 70688126
+AllMemtablesLiveDataSize - 18870908
+LiveSSTableCount - 10
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 89634206
+AllMemtablesLiveDataSize - 24610500
+LiveSSTableCount - 10
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 109548110
+AllMemtablesLiveDataSize - 31359220
+LiveSSTableCount - 10
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 132345934
+AllMemtablesLiveDataSize - 38334116
+LiveSSTableCount - 10
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 139682880
+AllMemtablesLiveDataSize - 42952457
+LiveSSTableCount - 11
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 160594688
+AllMemtablesLiveDataSize - 48693417
+LiveSSTableCount - 11
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 5653552
+AllMemtablesLiveDataSize - 1745857
+LiveSSTableCount - 11
+95thPercentile - 315.85200000000003
+--------------------------
+AllMemtablesHeapSize - 23749872
+AllMemtablesLiveDataSize - 7184717
+LiveSSTableCount - 11
+95thPercentile - 315.85200000000003
+--------------------------
+WRITE stress test finished in: 54.83 seconds
+Metrics output written to the file JMXmetrics.html
